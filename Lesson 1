@@ -1,0 +1,11 @@
+class student():
+    def __init__(self, name, username, password, grade):
+        self.name = name
+        self.username = username
+        self. password = password
+        self.grade = grade
+    def showdetails(self):
+        print("name: " + self.name)
+        print("Username = " + self.username)
+        print("Password: " + self.password)
+        print("Grade = " + self.grade)
