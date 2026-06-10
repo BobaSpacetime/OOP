@@ -9,3 +9,6 @@ class student():
         print("Username = " + self.username)
         print("Password: " + self.password)
         print("Grade = " + self.grade)
+S1 = student("chiko", "cjames3", "ChangeMe123", "B+")
+S1.showdetails()
+print(S1.name)
